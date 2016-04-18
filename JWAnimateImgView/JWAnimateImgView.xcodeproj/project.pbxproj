@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9ADBEC1CC4E1E20051B7FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADBEB1CC4E1E20051B7FB /* main.m */; };
+		5A9ADBEF1CC4E1E20051B7FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADBEE1CC4E1E20051B7FB /* AppDelegate.m */; };
+		5A9ADBF21CC4E1E20051B7FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADBF11CC4E1E20051B7FB /* ViewController.m */; };
+		5A9ADBF51CC4E1E20051B7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADBF31CC4E1E20051B7FB /* Main.storyboard */; };
+		5A9ADBF71CC4E1E20051B7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADBF61CC4E1E20051B7FB /* Assets.xcassets */; };
+		5A9ADBFA1CC4E1E20051B7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADBF81CC4E1E20051B7FB /* LaunchScreen.storyboard */; };
+		5A9ADC051CC4E1E20051B7FB /* JWAnimateImgViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADC041CC4E1E20051B7FB /* JWAnimateImgViewTests.m */; };
+		5A9ADC101CC4E1E20051B7FB /* JWAnimateImgViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADC0F1CC4E1E20051B7FB /* JWAnimateImgViewUITests.m */; };
+		5A9ADC221CC4E21F0051B7FB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADC1D1CC4E21F0051B7FB /* 1.jpg */; };
+		5A9ADC231CC4E21F0051B7FB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADC1E1CC4E21F0051B7FB /* 2.jpg */; };
+		5A9ADC241CC4E21F0051B7FB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADC1F1CC4E21F0051B7FB /* 3.jpg */; };
+		5A9ADC251CC4E21F0051B7FB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADC201CC4E21F0051B7FB /* 4.jpg */; };
+		5A9ADC261CC4E21F0051B7FB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A9ADC211CC4E21F0051B7FB /* 5.jpg */; };
+		5A9ADC291CC4E2340051B7FB /* JWAnimateImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9ADC281CC4E2340051B7FB /* JWAnimateImgView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9ADC011CC4E1E20051B7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9ADBDF1CC4E1E20051B7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9ADBE61CC4E1E20051B7FB;
+			remoteInfo = JWAnimateImgView;
+		};
+		5A9ADC0C1CC4E1E20051B7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9ADBDF1CC4E1E20051B7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9ADBE61CC4E1E20051B7FB;
+			remoteInfo = JWAnimateImgView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9ADBE71CC4E1E20051B7FB /* JWAnimateImgView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWAnimateImgView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9ADBEB1CC4E1E20051B7FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A9ADBED1CC4E1E20051B7FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A9ADBEE1CC4E1E20051B7FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A9ADBF01CC4E1E20051B7FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A9ADBF11CC4E1E20051B7FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A9ADBF41CC4E1E20051B7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9ADBF61CC4E1E20051B7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A9ADBF91CC4E1E20051B7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A9ADBFB1CC4E1E20051B7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9ADC001CC4E1E20051B7FB /* JWAnimateImgViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWAnimateImgViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9ADC041CC4E1E20051B7FB /* JWAnimateImgViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAnimateImgViewTests.m; sourceTree = "<group>"; };
+		5A9ADC061CC4E1E20051B7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9ADC0B1CC4E1E20051B7FB /* JWAnimateImgViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWAnimateImgViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9ADC0F1CC4E1E20051B7FB /* JWAnimateImgViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAnimateImgViewUITests.m; sourceTree = "<group>"; };
+		5A9ADC111CC4E1E20051B7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9ADC1D1CC4E21F0051B7FB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5A9ADC1E1CC4E21F0051B7FB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5A9ADC1F1CC4E21F0051B7FB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		5A9ADC201CC4E21F0051B7FB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		5A9ADC211CC4E21F0051B7FB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		5A9ADC271CC4E2340051B7FB /* JWAnimateImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAnimateImgView.h; sourceTree = "<group>"; };
+		5A9ADC281CC4E2340051B7FB /* JWAnimateImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAnimateImgView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9ADBE41CC4E1E20051B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADBFD1CC4E1E20051B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADC081CC4E1E20051B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9ADBDE1CC4E1E20051B7FB = {
+			isa = PBXGroup;
+			children = (
+				5A9ADC1D1CC4E21F0051B7FB /* 1.jpg */,
+				5A9ADC1E1CC4E21F0051B7FB /* 2.jpg */,
+				5A9ADC1F1CC4E21F0051B7FB /* 3.jpg */,
+				5A9ADC201CC4E21F0051B7FB /* 4.jpg */,
+				5A9ADC211CC4E21F0051B7FB /* 5.jpg */,
+				5A9ADBE91CC4E1E20051B7FB /* JWAnimateImgView */,
+				5A9ADC031CC4E1E20051B7FB /* JWAnimateImgViewTests */,
+				5A9ADC0E1CC4E1E20051B7FB /* JWAnimateImgViewUITests */,
+				5A9ADBE81CC4E1E20051B7FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9ADBE81CC4E1E20051B7FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9ADBE71CC4E1E20051B7FB /* JWAnimateImgView.app */,
+				5A9ADC001CC4E1E20051B7FB /* JWAnimateImgViewTests.xctest */,
+				5A9ADC0B1CC4E1E20051B7FB /* JWAnimateImgViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9ADBE91CC4E1E20051B7FB /* JWAnimateImgView */ = {
+			isa = PBXGroup;
+			children = (
+				5A9ADBED1CC4E1E20051B7FB /* AppDelegate.h */,
+				5A9ADBEE1CC4E1E20051B7FB /* AppDelegate.m */,
+				5A9ADBF01CC4E1E20051B7FB /* ViewController.h */,
+				5A9ADBF11CC4E1E20051B7FB /* ViewController.m */,
+				5A9ADC271CC4E2340051B7FB /* JWAnimateImgView.h */,
+				5A9ADC281CC4E2340051B7FB /* JWAnimateImgView.m */,
+				5A9ADBF31CC4E1E20051B7FB /* Main.storyboard */,
+				5A9ADBF61CC4E1E20051B7FB /* Assets.xcassets */,
+				5A9ADBF81CC4E1E20051B7FB /* LaunchScreen.storyboard */,
+				5A9ADBFB1CC4E1E20051B7FB /* Info.plist */,
+				5A9ADBEA1CC4E1E20051B7FB /* Supporting Files */,
+			);
+			path = JWAnimateImgView;
+			sourceTree = "<group>";
+		};
+		5A9ADBEA1CC4E1E20051B7FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9ADBEB1CC4E1E20051B7FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9ADC031CC4E1E20051B7FB /* JWAnimateImgViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9ADC041CC4E1E20051B7FB /* JWAnimateImgViewTests.m */,
+				5A9ADC061CC4E1E20051B7FB /* Info.plist */,
+			);
+			path = JWAnimateImgViewTests;
+			sourceTree = "<group>";
+		};
+		5A9ADC0E1CC4E1E20051B7FB /* JWAnimateImgViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9ADC0F1CC4E1E20051B7FB /* JWAnimateImgViewUITests.m */,
+				5A9ADC111CC4E1E20051B7FB /* Info.plist */,
+			);
+			path = JWAnimateImgViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9ADBE61CC4E1E20051B7FB /* JWAnimateImgView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9ADC141CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgView" */;
+			buildPhases = (
+				5A9ADBE31CC4E1E20051B7FB /* Sources */,
+				5A9ADBE41CC4E1E20051B7FB /* Frameworks */,
+				5A9ADBE51CC4E1E20051B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWAnimateImgView;
+			productName = JWAnimateImgView;
+			productReference = 5A9ADBE71CC4E1E20051B7FB /* JWAnimateImgView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9ADBFF1CC4E1E20051B7FB /* JWAnimateImgViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9ADC171CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgViewTests" */;
+			buildPhases = (
+				5A9ADBFC1CC4E1E20051B7FB /* Sources */,
+				5A9ADBFD1CC4E1E20051B7FB /* Frameworks */,
+				5A9ADBFE1CC4E1E20051B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9ADC021CC4E1E20051B7FB /* PBXTargetDependency */,
+			);
+			name = JWAnimateImgViewTests;
+			productName = JWAnimateImgViewTests;
+			productReference = 5A9ADC001CC4E1E20051B7FB /* JWAnimateImgViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A9ADC0A1CC4E1E20051B7FB /* JWAnimateImgViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9ADC1A1CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgViewUITests" */;
+			buildPhases = (
+				5A9ADC071CC4E1E20051B7FB /* Sources */,
+				5A9ADC081CC4E1E20051B7FB /* Frameworks */,
+				5A9ADC091CC4E1E20051B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9ADC0D1CC4E1E20051B7FB /* PBXTargetDependency */,
+			);
+			name = JWAnimateImgViewUITests;
+			productName = JWAnimateImgViewUITests;
+			productReference = 5A9ADC0B1CC4E1E20051B7FB /* JWAnimateImgViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9ADBDF1CC4E1E20051B7FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JW;
+				TargetAttributes = {
+					5A9ADBE61CC4E1E20051B7FB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5A9ADBFF1CC4E1E20051B7FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A9ADBE61CC4E1E20051B7FB;
+					};
+					5A9ADC0A1CC4E1E20051B7FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A9ADBE61CC4E1E20051B7FB;
+					};
+				};
+			};
+			buildConfigurationList = 5A9ADBE21CC4E1E20051B7FB /* Build configuration list for PBXProject "JWAnimateImgView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9ADBDE1CC4E1E20051B7FB;
+			productRefGroup = 5A9ADBE81CC4E1E20051B7FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9ADBE61CC4E1E20051B7FB /* JWAnimateImgView */,
+				5A9ADBFF1CC4E1E20051B7FB /* JWAnimateImgViewTests */,
+				5A9ADC0A1CC4E1E20051B7FB /* JWAnimateImgViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9ADBE51CC4E1E20051B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9ADBFA1CC4E1E20051B7FB /* LaunchScreen.storyboard in Resources */,
+				5A9ADC261CC4E21F0051B7FB /* 5.jpg in Resources */,
+				5A9ADC251CC4E21F0051B7FB /* 4.jpg in Resources */,
+				5A9ADC221CC4E21F0051B7FB /* 1.jpg in Resources */,
+				5A9ADC231CC4E21F0051B7FB /* 2.jpg in Resources */,
+				5A9ADC241CC4E21F0051B7FB /* 3.jpg in Resources */,
+				5A9ADBF71CC4E1E20051B7FB /* Assets.xcassets in Resources */,
+				5A9ADBF51CC4E1E20051B7FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADBFE1CC4E1E20051B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADC091CC4E1E20051B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9ADBE31CC4E1E20051B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9ADBF21CC4E1E20051B7FB /* ViewController.m in Sources */,
+				5A9ADC291CC4E2340051B7FB /* JWAnimateImgView.m in Sources */,
+				5A9ADBEF1CC4E1E20051B7FB /* AppDelegate.m in Sources */,
+				5A9ADBEC1CC4E1E20051B7FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADBFC1CC4E1E20051B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9ADC051CC4E1E20051B7FB /* JWAnimateImgViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9ADC071CC4E1E20051B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9ADC101CC4E1E20051B7FB /* JWAnimateImgViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9ADC021CC4E1E20051B7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9ADBE61CC4E1E20051B7FB /* JWAnimateImgView */;
+			targetProxy = 5A9ADC011CC4E1E20051B7FB /* PBXContainerItemProxy */;
+		};
+		5A9ADC0D1CC4E1E20051B7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9ADBE61CC4E1E20051B7FB /* JWAnimateImgView */;
+			targetProxy = 5A9ADC0C1CC4E1E20051B7FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9ADBF31CC4E1E20051B7FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9ADBF41CC4E1E20051B7FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A9ADBF81CC4E1E20051B7FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9ADBF91CC4E1E20051B7FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9ADC121CC4E1E20051B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A9ADC131CC4E1E20051B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9ADC151CC4E1E20051B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWAnimateImgView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A9ADC161CC4E1E20051B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWAnimateImgView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A9ADC181CC4E1E20051B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWAnimateImgViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWAnimateImgView.app/JWAnimateImgView";
+			};
+			name = Debug;
+		};
+		5A9ADC191CC4E1E20051B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWAnimateImgViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWAnimateImgView.app/JWAnimateImgView";
+			};
+			name = Release;
+		};
+		5A9ADC1B1CC4E1E20051B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWAnimateImgViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWAnimateImgView;
+			};
+			name = Debug;
+		};
+		5A9ADC1C1CC4E1E20051B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWAnimateImgViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JW.JWAnimateImgViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWAnimateImgView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9ADBE21CC4E1E20051B7FB /* Build configuration list for PBXProject "JWAnimateImgView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9ADC121CC4E1E20051B7FB /* Debug */,
+				5A9ADC131CC4E1E20051B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9ADC141CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9ADC151CC4E1E20051B7FB /* Debug */,
+				5A9ADC161CC4E1E20051B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A9ADC171CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9ADC181CC4E1E20051B7FB /* Debug */,
+				5A9ADC191CC4E1E20051B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A9ADC1A1CC4E1E20051B7FB /* Build configuration list for PBXNativeTarget "JWAnimateImgViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9ADC1B1CC4E1E20051B7FB /* Debug */,
+				5A9ADC1C1CC4E1E20051B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9ADBDF1CC4E1E20051B7FB /* Project object */;
+}
